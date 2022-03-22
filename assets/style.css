@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
+
+
+/* :root{
+    --header-height: 5.5em;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+}
+
+/* Estilos header */
+
+header{
+    width: 100vw;
+    background-color: #094293;
+    height: 5.5em;
+    position: fixed;
+    top: 0;
+}
+
+.navbar{
+    margin: 0 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.menu-head a{
+    font-size: 1em;
+}
+
+.menu-head{
+    display: flex;
+}
+
+.menu-head li{
+    margin: 0 1.5em;
+}
+
+.brand-icon,
+.cart-icon{
+    font-size: 3em;
+}
+
+
+
+/* Estilos Seccion Productos */
+
+.wrapper-main{
+    margin-top: 5.5em;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+
+.main-productos{
+    margin-left: 5vw;
+    grid-column: 1/7;
+}
+
+/* Estilos para las cartas de productos */
+.i-productos{
+    display: flex;
+    margin: 6vh 0;
+    border: #d0d0d0 solid;
+    padding: 1em;
+}
+
+.img-container{
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img{
+    height: 200px;
+}
+
+/* Estilos para el carrito */
+.s-cart{
+    position: fixed;
+    top: 5.5em;
+    right: 0;
+    width: 30vw;
+    height: 100vh;
+}
+
+.cart-pago{
+    position: fixed;
+    bottom: 0;
+    width: 30vw;
+}
+
+ul{
+    padding: 0;
+}
+
+.li-cart{
+    width: 90%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh 0;
+    margin-right: 5vw;
+    
+}
+
+.button{
+    border: none;
+    background-color: red;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.li-cart .button{
+    padding: 0;
+}
+
+.cart-pago .button{
+    margin-left: 5vw;
+}
+
+span{
+    font-size: 1.5em;
+}
+
+/* Estilos para el footer */
+
+footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.footer_heading h2,
+.footer_heading h5{
+    margin: 0;
+    text-align: center;
+}
